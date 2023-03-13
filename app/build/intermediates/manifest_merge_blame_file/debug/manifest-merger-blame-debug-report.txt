@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.uksw.fti.pam.acitivityintent"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\2e88be5a2378df6ca8982a6b132bf5a2\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="edu.uksw.fti.pam.acitivityintent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\2e88be5a2378df6ca8982a6b132bf5a2\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\2e88be5a2378df6ca8982a6b132bf5a2\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="edu.uksw.fti.pam.acitivityintent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\2e88be5a2378df6ca8982a6b132bf5a2\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\2e88be5a2378df6ca8982a6b132bf5a2\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:4:5-64:19
+18        android:allowBackup="true"
+18-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\User\.gradle\caches\transforms-3\2e88be5a2378df6ca8982a6b132bf5a2\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:6:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:7:9-54
+23        android:icon="@mipmap/donoreal3"
+23-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:8:9-41
+24        android:label="@string/app_name"
+24-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:9:9-41
+25        android:supportsRtl="true"
+25-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.PAMAcitivityIntent" >
+27-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:11:9-56
+28        <activity
+28-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:13:9-16:65
+29            android:name="edu.uksw.fti.pam.acitivityintent.CameraActivity"
+29-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:14:13-43
+30            android:exported="false"
+30-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:15:13-37
+31            android:theme="@style/Theme.AppCompat.NoActionBar" />
+31-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:16:13-63
+32        <activity
+32-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:17:9-20:65
+33            android:name="edu.uksw.fti.pam.acitivityintent.MP3Activity"
+33-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:18:13-40
+34            android:exported="false"
+34-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:19:13-37
+35            android:theme="@style/Theme.AppCompat.NoActionBar" />
+35-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:20:13-63
+36        <activity
+36-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:21:9-24:65
+37            android:name="edu.uksw.fti.pam.acitivityintent.MP2Activity"
+37-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:22:13-40
+38            android:exported="false"
+38-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:23:13-37
+39            android:theme="@style/Theme.AppCompat.NoActionBar" />
+39-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:24:13-63
+40        <activity
+40-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:25:9-28:65
+41            android:name="edu.uksw.fti.pam.acitivityintent.MPActivity"
+41-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:26:13-39
+42            android:exported="false"
+42-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:27:13-37
+43            android:theme="@style/Theme.AppCompat.NoActionBar" />
+43-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:28:13-63
+44        <activity
+44-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:29:9-32:65
+45            android:name="edu.uksw.fti.pam.acitivityintent.HomeActivity"
+45-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:30:13-41
+46            android:exported="false"
+46-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:31:13-37
+47            android:theme="@style/Theme.AppCompat.NoActionBar" />
+47-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:32:13-63
+48        <activity
+48-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:33:9-36:65
+49            android:name="edu.uksw.fti.pam.acitivityintent.SignUpActivity"
+49-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:34:13-43
+50            android:exported="false"
+50-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:35:13-37
+51            android:theme="@style/Theme.AppCompat.NoActionBar" />
+51-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:36:13-63
+52        <activity
+52-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:37:9-40:65
+53            android:name="edu.uksw.fti.pam.acitivityintent.MainActivity"
+53-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:38:13-41
+54            android:exported="false"
+54-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:39:13-37
+55            android:theme="@style/Theme.AppCompat.NoActionBar" />
+55-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:40:13-63
+56        <activity
+56-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:41:9-44:65
+57            android:name="edu.uksw.fti.pam.acitivityintent.Intro2Activity"
+57-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:42:13-43
+58            android:exported="false"
+58-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:43:13-37
+59            android:theme="@style/Theme.AppCompat.NoActionBar" />
+59-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:44:13-63
+60        <activity
+60-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:45:9-48:65
+61            android:name="edu.uksw.fti.pam.acitivityintent.Intro3Activity"
+61-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:46:13-43
+62            android:exported="false"
+62-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:47:13-37
+63            android:theme="@style/Theme.AppCompat.NoActionBar" />
+63-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:48:13-63
+64        <activity
+64-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:49:9-52:65
+65            android:name="edu.uksw.fti.pam.acitivityintent.Intro4Activity"
+65-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:50:13-43
+66            android:exported="false"
+66-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:51:13-37
+67            android:theme="@style/Theme.AppCompat.NoActionBar" />
+67-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:52:13-63
+68        <activity
+68-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:53:9-63:20
+69            android:name="edu.uksw.fti.pam.acitivityintent.IntroActivity"
+69-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:54:13-42
+70            android:exported="true"
+70-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:55:13-36
+71            android:label="@string/app_name"
+71-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:56:13-45
+72            android:theme="@style/Theme.AppCompat.NoActionBar" >
+72-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:57:13-63
+73            <intent-filter>
+73-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:58:13-62:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:59:17-69
+74-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:59:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:61:17-77
+76-->G:\TTS PAM - 672018429\TTS PAM\app\src\main\AndroidManifest.xml:61:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\User\.gradle\caches\transforms-3\73dee6bc4ac300b05e8c71d5ecdd018a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
+80            android:name="androidx.compose.ui.tooling.PreviewActivity"
+80-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\User\.gradle\caches\transforms-3\73dee6bc4ac300b05e8c71d5ecdd018a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
+81            android:exported="true" />
+81-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\User\.gradle\caches\transforms-3\73dee6bc4ac300b05e8c71d5ecdd018a\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
+82        <activity
+82-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4917c8d76a9d484896973cb08c509b9f\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:24:9-26:39
+83            android:name="androidx.activity.ComponentActivity"
+83-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4917c8d76a9d484896973cb08c509b9f\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:25:13-63
+84            android:exported="true" />
+84-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4917c8d76a9d484896973cb08c509b9f\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:26:13-36
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+88            android:authorities="edu.uksw.fti.pam.acitivityintent.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\User\.gradle\caches\transforms-3\4272141d303becdc25d724f4254cab0c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+94                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+94-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+95                android:value="androidx.startup" />
+95-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\35848aa586c0c84d7a91386f243dbbec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\35848aa586c0c84d7a91386f243dbbec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\User\.gradle\caches\transforms-3\35848aa586c0c84d7a91386f243dbbec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+99        </provider>
+100        <!--
+101        Service for holding metadata. Cannot be instantiated.
+102        Metadata will be merged from other manifests.
+103        -->
+104        <service
+104-->[androidx.camera:camera-core:1.1.0-beta02] C:\Users\User\.gradle\caches\transforms-3\a71f4438c4c8e12bd1271cced1bf46dd\transformed\camera-core-1.1.0-beta02\AndroidManifest.xml:31:9-35:45
+105            android:name="androidx.camera.core.impl.MetadataHolderService"
+105-->[androidx.camera:camera-core:1.1.0-beta02] C:\Users\User\.gradle\caches\transforms-3\a71f4438c4c8e12bd1271cced1bf46dd\transformed\camera-core-1.1.0-beta02\AndroidManifest.xml:32:13-75
+106            android:enabled="false"
+106-->[androidx.camera:camera-core:1.1.0-beta02] C:\Users\User\.gradle\caches\transforms-3\a71f4438c4c8e12bd1271cced1bf46dd\transformed\camera-core-1.1.0-beta02\AndroidManifest.xml:33:13-36
+107            android:exported="false" />
+107-->[androidx.camera:camera-core:1.1.0-beta02] C:\Users\User\.gradle\caches\transforms-3\a71f4438c4c8e12bd1271cced1bf46dd\transformed\camera-core-1.1.0-beta02\AndroidManifest.xml:34:13-37
+108
+109        <receiver
+109-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+110            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+110-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+111            android:directBootAware="false"
+111-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+112            android:enabled="true"
+112-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+113            android:exported="true"
+113-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+114            android:permission="android.permission.DUMP" >
+114-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+116                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+116-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+119                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+119-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\User\.gradle\caches\transforms-3\8a1abbefbbd24d0afcc5a1a089ddc696\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+120            </intent-filter>
+121        </receiver>
+122    </application>
+123
+124</manifest>
